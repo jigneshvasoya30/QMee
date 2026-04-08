@@ -18,14 +18,14 @@
     --color-violet-500: #8b5cf6;
     --color-violet-600: #7c3aed;
 
-    /* Neutral scale — warm dark */
-    --color-surface-950: #0c0b14;
-    --color-surface-900: #12101f;
-    --color-surface-800: #1a1730;
-    --color-surface-700: #241f42;
-    --color-surface-600: #2e2957;
-    --color-surface-500: #3e3770;
-    --color-surface-50:  #f5f4fe;
+    /* Neutral scale — charcoal/deep grays */
+    --color-surface-950: #0f1115;
+    --color-surface-900: #181a20;
+    --color-surface-800: #22252e;
+    --color-surface-700: #2d313c;
+    --color-surface-600: #3d4351;
+    --color-surface-500: #505868;
+    --color-surface-50:  #f8f9fa;
 
     /* Text */
     --color-text-primary:   #f0ecff;
@@ -40,7 +40,7 @@
     /* Gradients */
     --gradient-brand: linear-gradient(135deg, #f72c86 0%, #8b5cf6 100%);
     --gradient-brand-soft: linear-gradient(135deg, rgba(247,44,134,0.15) 0%, rgba(139,92,246,0.15) 100%);
-    --gradient-surface: linear-gradient(180deg, #12101f 0%, #0c0b14 100%);
+    --gradient-surface: linear-gradient(180deg, #181a20 0%, #0f1115 100%);
 
     /* Glow */
     --glow-brand: 0 0 40px rgba(247,44,134,0.25), 0 0 80px rgba(139,92,246,0.10);
@@ -433,7 +433,7 @@ body {
 .mobile-nav {
   position: fixed;
   inset: 0;
-  background: rgba(12, 11, 20, 0.97);
+  background: rgba(15, 17, 21, 0.97);
   backdrop-filter: blur(20px);
   z-index: 99;
   display: flex;

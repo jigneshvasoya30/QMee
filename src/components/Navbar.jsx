@@ -36,7 +36,7 @@ export default function Navbar() {
           zIndex: 50, padding: '0 1.5rem',
           transition: 'all 0.3s ease',
           background: scrolled
-            ? 'rgba(12,11,20,0.88)'
+            ? 'rgba(15,17,21,0.88)'
             : 'transparent',
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
           borderBottom: scrolled ? '1px solid rgba(255,255,255,0.06)' : '1px solid transparent',
